@@ -26,6 +26,10 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+defaults:
+#_posts
+  values:
+  read_time: true
 
 # SEO Related
 google_site_verification :
