@@ -1,13 +1,13 @@
 ---
-title: "CV"
+title: ""
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
 permalink: /cv/cv.html
 ---
-## Work Experience  
+# Work Experience  
 
-### <span style="color: red">Technical Writer</span><br/>
+## <span style="color: red">Technical Writer</span><br/>
 Redgate Software  
 _2015 - Present_
 
@@ -22,7 +22,7 @@ _2015 - Present_
 
 
 
-### <span style="color: red">Freelance Writer  </span>
+## <span style="color: red">Freelance Writer  </span>
 NowThen Magazine  
 _2011 - 2014_
 
@@ -30,7 +30,7 @@ _2011 - 2014_
 - Produced and fact-checked articles quickly and efficiently, working to strict deadlines.
 - Reviewed local gigs, new films and games.
 
-### <span style="color: red">Specialist  </span>
+## <span style="color: red">Specialist  </span>
 **Apple Retail**  
 _2011 - 2014_
 - Worked multiple roles to ensure excellent levels of customer service were maintained.
