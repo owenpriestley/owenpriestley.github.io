@@ -5,7 +5,7 @@ excerpt: "Owen Priestley"
 sitemap: true
 permalink: /cv/cv.html
 ---
-# Work Experience  
+# Work experience  
 
 ## <span style="color: red">Technical Writer</span><br/>
 Redgate Software  
@@ -37,26 +37,26 @@ _2011 - 2014_
 - Produced and edited written communications for internal distribution.
 - Researched competitor products and services and produced written reports for training.
 
-## Education
+# Education  
 
-### Sheffield Hallam University
-
-**B.A. Honours**** : Creative Writing**2010 - 2013
+## <span style="color: red">B.A. Honours: Creative Writing</span>  
+**Sheffield Hallam University**
+_2010 - 2013_
 
 - Practiced writing concise, effective copy for varying purposes and audiences.
 - Edited, proofread and submitted written work to strict deadlines.
 - Produced work to be published through various channels; with print, digital and spoken word being the most prominent
 - Acted upon feedback from peers and lecturers to improve written work.
 
-## Norton College
-
-**A Level:**  **English, Graphic Design and Media** 2008 - 2010
+## <span style="color: red">A-Level: English, Graphic Design and Media Studies</span>  
+**The Sheffield College**
+_2008 - 2010_
 
 - Researched and presented information in concise written essays and/or via spoken presentations.
 - Used Adobe creative suites to produce promotional and informative materials, both for digital and print consumption.
 - Studied fundamental media theory and applied it to the analysis of existing work.
 
-# **Additional Skills**
+### Additional skills
 
 - Knowledge of Adobe Creative Suite and Creative Cloud.
 - Substantial experience with Microsoft Office.
