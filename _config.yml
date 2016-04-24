@@ -30,6 +30,7 @@ defaults:
 #_posts
   values:
   read_time: true
+  display_title: false
 
 # SEO Related
 google_site_verification :

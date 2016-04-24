@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "CV"
-    url: /cv/cv.md
+    url: /cv/cv.html
 
   - title: "Portfolio"
     url: https://mmistakes.github.io/minimal-mistakes/
