@@ -26,11 +26,13 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-defaults:
+defaults: 
 #_posts
-  values:
-  read_time: true
-  display_title: false
+  -
+    values:
+      read_time: true
+      display_title: false
+ #_portfolio
 
 # SEO Related
 google_site_verification :
@@ -209,3 +211,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
