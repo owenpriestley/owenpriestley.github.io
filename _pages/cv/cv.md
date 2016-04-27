@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: ""
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true

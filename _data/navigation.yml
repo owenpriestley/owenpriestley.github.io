@@ -15,7 +15,7 @@ portfolio:
     url: /redgate/
     children:
       - title: "SQL Source Control"
-        url: /child-1-page-url/
+        url: /migrations/
       - title: "SSDT Reference Data Manager"
         url: /child-2-page-url/
       - title: "DLM Dashboard"

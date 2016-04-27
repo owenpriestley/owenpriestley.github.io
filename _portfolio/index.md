@@ -1,9 +1,9 @@
 ---
-title: "Portfolio"
+title: ""
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
-permalink: /portfolio/index/
+permalink: /portfolio/
 sidebar:
   nav: "portfolio"
 ---
