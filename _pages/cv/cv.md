@@ -3,7 +3,7 @@ title: "CV"
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
-permalink: /cv/cv.html
+permalink: /cv/
 ---
 <h1 style="text-align: center; color: navy; text-indent: -1em; text-decoration: underline"><i>WORK EXPERIENCE</i></h1>
 

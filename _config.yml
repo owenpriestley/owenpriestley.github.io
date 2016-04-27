@@ -32,11 +32,13 @@ defaults:
     values:
       read_time: true
       display_title: false
+      layout: single
  #_portfolio
   -
     values:
       read_time: false
-      display_title: false
+      sidebar:
+      nav: "foo"
 # SEO Related
 google_site_verification :
 bing_site_verification   :

@@ -1,16 +1,36 @@
 # main links links
 main:
   - title: "CV"
-    url: /cv/cv.html
+    url: /cv/
 
   - title: "Portfolio"
-    url: /portfolio/portfolio.html
+    url: /portfolio/
 
-  - title: "Contact details"
-    url: /contact.html
+  - title: "Contact"
+    url: /contact/
 
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+# _data/navigation.yml
+portfolio:
+  - title: "Redgate Software"
+    url: /redgate/
+    children:
+      - title: "SQL Source Control"
+        url: /child-1-page-url/
+      - title: "SSDT Reference Data Manager"
+        url: /child-2-page-url/
+      - title: "DLM Dashboard"
+        url: /child-2-page-url/
+  - title: "NowThen Magazine"
+    url: /nowthen/
+    children:
+      - title: "Mississipi Records (interview with Eric Isaacson)"
+        url: /child-1-page-url/
+      - title: "Wet Nuns at Tramlines Festival"
+        url: /child-2-page-url/
+  - title: "Personal"
+    url: /personal/
+    children:
+      - title: "Moving to Canada"
+        url: /child-1-page-url/
+      - title: "Louis Theroux on Scientology"
+        url: /child-2-page-url/
