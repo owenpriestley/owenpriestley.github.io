@@ -4,6 +4,8 @@ layout: single
 excerpt: "Owen Priestley"
 sitemap: true
 permalink: /portfolio/redgate/migrations/
+sidebar:
+  nav: "portfolio"
 ---
 <div class="notice--success">
      <p>This article was released as part of the SQL Source Control 5 beta program, and later became part of the documentation for the final product.</p>

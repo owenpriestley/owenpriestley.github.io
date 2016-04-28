@@ -38,7 +38,7 @@ defaults:
     values:
       read_time: false
       sidebar:
-      nav: "foo"
+      nav: "portfolio"
 # SEO Related
 google_site_verification :
 bing_site_verification   :
