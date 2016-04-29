@@ -12,9 +12,8 @@ I joined the SQL Source Control team to help document the overhaul of the migrat
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 
-## Working with Migration scripts
-
-### What are migration scripts?
+<div class="notice"><p><h2 class="inside">Working with Migration scripts</h2>
+<h3>What are migration scripts?</h3>
 
 When you deploy changes committed to version control, the SQL Compare
 engine generates a deployment script to update the target database.You
@@ -29,7 +28,7 @@ In most cases, you only need to write SQL for the data changes in the
 migration script. Schema changes are committed separately and deployed
 as normal. 
 
-### Creating a migration script
+<h3>Creating a migration script</h3>
 
 To create a new migration script:
 
@@ -62,7 +61,7 @@ will run as part of the deployment.
 
 For more information, see [How migration scripts work](https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work).
 
-### Editing migration scripts
+<h3>Editing migration scripts</h3>
 
 You can edit or delete existing migration scripts from
 the **Migrations** tab in SQL Source Control:
@@ -78,8 +77,7 @@ the **Migrations** tab in SQL Source Control:
 4.  Expand **Existing migration scripts.**  
     Migration scripts on the remote repository are listed. 
 
-5.  In the **Actions** column, click **View / Edit** next to a
-    migration script.
+5.  In the **Actions** column, click **View / Edit** next to a migration script.
 
 6.  Edit the script to make the required changes.
 
@@ -100,7 +98,7 @@ deployments.
   </ul>
 </div>
 
-### Deploying with migration scripts
+<h3>Deploying with migration scripts</h3>
 
 We recommend using SQL Compare to deploy changes to production, as you
 have the opportunity to review the deployment script before it's
@@ -108,11 +106,13 @@ deployed. It is possible to use the **Get latest** function in SQL
 Source Control to deploy these changes, however we don't recommend
 linking your production database directly to source control.
 
-**Dependencies**
+<p style="text-weight: strong">Dependencies</p>
 
 When you create a migration script that includes uncommitted schema
 changes, SQL Source Control automatically includes any dependencies.
 Deselecting any of these dependencies during the deployment stage will
 cause the deployment to fail. 
+
+</p></div>
 
 [PDF](portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf){: .btn .btn--small} [Confluence](https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts){: .btn .btn--small}
