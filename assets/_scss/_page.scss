@@ -137,7 +137,7 @@
       font-size: 12em;
 
       @include breakpoint($small) {
-        font-size: $type-size-1;
+        font-size: 12em;
       }
     }
   }
