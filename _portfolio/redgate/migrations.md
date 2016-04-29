@@ -1,5 +1,5 @@
 ---
-title: "Working with migration scripts"
+title: "SQL Source Control"
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
@@ -7,13 +7,13 @@ permalink: /portfolio/redgate/migrations/
 sidebar:
   nav: "portfolio"
 ---
-<div class="notice--success">
-     <p>This article was released as part of the SQL Source Control 5 beta program, and later became part of the documentation for the final product.</p>
-     <p>Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.</p>
-     <p><a href="portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf" class="btn btn--info">PDF</a> <a href="https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts" class="btn btn--info">Confluence</a></p>
-     </div>
 
-	 ## What are migration scripts?
+I joined the SQL Source Control team to help document the _migrations_ feature of the software. Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
+
+## Working with Migration scripts  
+<a href="portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf" class="btn btn--small">PDF</a> <a href="https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts" class="btn btn--small">Confluence</a>
+
+### What are migration scripts?
 
 When you deploy changes committed to version control, the SQL Compare
 engine generates a deployment script to update the target database. You
@@ -28,7 +28,7 @@ In most cases, you only need to write SQL for the data changes in the
 migration script. Schema changes are committed separately and deployed
 as normal. 
 
-## Creating a migration script
+### Creating a migration script
 
 To create a new migration script:
 
@@ -61,7 +61,7 @@ will run as part of the deployment.
 
 For more information, see [How migration scripts work](https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work).
 
-### Editing migration scripts
+#### Editing migration scripts
 
 You can edit or delete existing migration scripts from
 the **Migrations** tab in SQL Source Control:
@@ -99,7 +99,7 @@ deployments.
   </ul>
 </div>
 
-### Deploying with migration scripts
+#### Deploying with migration scripts
 
 We recommend using SQL Compare to deploy changes to production, as you
 have the opportunity to review the deployment script before it's
@@ -114,7 +114,7 @@ changes, SQL Source Control automatically includes any dependencies.
 Deselecting any of these dependencies during the deployment stage will
 cause the deployment to fail. 
 
-## See also 
+### See also 
 
 -   [What are migration
     scripts?](#Workingwithmigrationscripts-Whataremigr)
