@@ -12,78 +12,77 @@ I joined the SQL Source Control team to help document the overhaul of the migrat
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 
-<div class="notice"><p><h2 class="inside">Working with Migration scripts</h2>
+<div class="notice"><h2 class="inside">Working with migration scripts</h2>
 <h3>What are migration scripts?</h3>
-
-When you deploy changes committed to version control, the SQL Compare
+<p>When you deploy changes committed to version control, the SQL Compare
 engine generates a deployment script to update the target database.You
 can use a migration script to add custom SQL to a specific point in this
-deployment script.
+deployment script.<br/>
 
 Migration scripts are necessary to avoid data loss when making certain
 schema changes. To achieve this, the migration script intervenes to make
-data changes occur at the right point of the deployment.
+data changes occur at the right point of the deployment.<br/>
 
 In most cases, you only need to write SQL for the data changes in the
 migration script. Schema changes are committed separately and deployed
-as normal. 
+as normal.</p>
 
 <h3>Creating a migration script</h3>
 
-To create a new migration script:
+To create a new migration script:<br/>
+<ol>
+<li>From the <strong>Object Explorer</strong>, select the database you want to add a
+    migration script to.</li>
 
-1.  From the **Object Explorer**, select the database you want to add a
-    migration script to.
+<li>From the toolbar, select <strong>SQL Source Control</strong>.<br/> 
+The SQL Source Control window opens.</li>
 
-2.  From the toolbar, select **SQL Source Control**.  
-The SQL Source Control window opens.
+<li>Go to the <strong>Migrations</strong> tab.</li>
 
-3.  Go to the **Migrations** tab.
+<li>Select the type of migration script, depending on your development
+    process and the changes you're making.</li>
 
-4.  Select the type of migration script, depending on your development
-    process and the changes you're making.
+<li>In the <strong>Name</strong> field, enter a name for the script.</li>
 
-5.  In the **Name** field, enter a name for the script.
+<li>In the editor window, write SQL to make the required changes.</li>
 
-6.  In the editor window, write SQL to make the required changes.
+<li>Click <strong>Save & Close</strong>.</li>
 
-7.  Click **Save & Close**.
-
-8.  Commit the changes to version control.
-
- Always commit a new migration script immediately after saving it.
+<li>Commit the changes to version control.</li>
+</ol>
+ Always commit a new migration script immediately after saving it.</br></br>
  Making changes to your database schema between saving and committing
- migration scripts can cause errors during deployment. 
+ migration scripts can cause errors during deployment. </br>
 
-When you deploy this revision from version control, or use **Get
-latest** in SQL Source Control on another machine, the migration script
-will run as part of the deployment. 
+When you deploy this revision from version control, or use <strong>Get
+latest</strong> in SQL Source Control on another machine, the migration script
+will run as part of the deployment. </br>
 
-For more information, see [How migration scripts work](https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work).
+For more information, see <a href="https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work">How migration scripts work</a><br/>
 
 <h3>Editing migration scripts</h3>
 
 You can edit or delete existing migration scripts from
-the **Migrations** tab in SQL Source Control:
+the <strong>Migrations</strong> tab in SQL Source Control:
 
-1.  From the **Object Explorer**, select a database with
+1.  From the <strong>Object Explorer</strong>, select a database with
     migration scripts.
 
-2.  From the toolbar, select **SQL Source Control**.  
+2.  From the toolbar, select <strong>SQL Source Control</strong>.  
     The SQL Source Control window opens.
 
-3.  Go to the **Migrations** tab.
+3.  Go to the <strong>Migrations</strong> tab.
 
-4.  Expand **Existing migration scripts.**  
+4.  Expand <strong>Existing migration scripts</strong>. 
     Migration scripts on the remote repository are listed. 
 
-5.  In the **Actions** column, click **View / Edit** next to a migration script.
+5.  In the <strong>Actions</strong> column, click <strong>View / Edit</strong> next to a migration script.
 
 6.  Edit the script to make the required changes.
 
-7.  Click **Save & Close**.
+7.  Click <strong>Save & Close</strong>.
 
-8.  Go to the **Commit changes** tab and commit the updated
+8.  Go to the <strong>Commit changes</strong> tab and commit the updated
     migration script.
 
 Once committed, the updated migration script is used in all future
@@ -102,7 +101,7 @@ deployments.
 
 We recommend using SQL Compare to deploy changes to production, as you
 have the opportunity to review the deployment script before it's
-deployed. It is possible to use the **Get latest** function in SQL
+deployed. It is possible to use the <strong>Get latest</strong> function in SQL
 Source Control to deploy these changes, however we don't recommend
 linking your production database directly to source control.
 
