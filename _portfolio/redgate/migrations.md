@@ -62,7 +62,7 @@ will run as part of the deployment.
 
 For more information, see [How migration scripts work](https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work).
 
-#### Editing migration scripts
+### Editing migration scripts
 
 You can edit or delete existing migration scripts from
 the **Migrations** tab in SQL Source Control:
@@ -100,7 +100,7 @@ deployments.
   </ul>
 </div>
 
-#### Deploying with migration scripts
+### Deploying with migration scripts
 
 We recommend using SQL Compare to deploy changes to production, as you
 have the opportunity to review the deployment script before it's
