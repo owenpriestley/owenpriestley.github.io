@@ -8,15 +8,16 @@ sidebar:
   nav: "portfolio"
 ---
 
-I joined the SQL Source Control team to help document the _migrations_ feature of the software. Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
+I joined the SQL Source Control team to help document the overhaul of the migrations feature in the software. 
 
-## Working with Migration scripts  
-<a href="portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf" class="btn btn--small">PDF</a> <a href="https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts" class="btn btn--small">Confluence</a>
+Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
+
+## Working with Migration scripts
 
 ### What are migration scripts?
 
 When you deploy changes committed to version control, the SQL Compare
-engine generates a deployment script to update the target database. You
+engine generates a deployment script to update the target database.You
 can use a migration script to add custom SQL to a specific point in this
 deployment script.
 
@@ -114,18 +115,4 @@ changes, SQL Source Control automatically includes any dependencies.
 Deselecting any of these dependencies during the deployment stage will
 cause the deployment to fail. 
 
-### See also 
-
--   [What are migration
-    scripts?](#Workingwithmigrationscripts-Whataremigr)
-
--   [Creating a migration
-    script](#Workingwithmigrationscripts-Creatingami)
-
--   [Editing migration
-    scripts](#Workingwithmigrationscripts-Editingmigr)
-
--   [Deploying with migration
-    scripts](#Workingwithmigrationscripts-Deployingwi)
-
--   [Examples](#Workingwithmigrationscripts-Examples)
+[PDF](portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf){: .btn .btn--small} [Confluence](https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts){: .btn .btn--small}
