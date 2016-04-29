@@ -134,7 +134,7 @@
     }
 
     .page__title {
-      font-size: 40em;
+      font-size: 12em;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
