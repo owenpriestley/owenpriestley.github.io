@@ -12,7 +12,7 @@ main:
 # _data/navigation.yml
 portfolio:
   - title: "Redgate Software"
-    url: /redgate/
+    url: /portfolio/redgate/
     children:
       - title: "SQL Source Control"
         url: /portfolio/redgate/migrations/
@@ -21,12 +21,12 @@ portfolio:
       - title: "DLM Dashboard"
         url: /child-2-page-url/
   - title: "NowThen Magazine"
-    url: /nowthen/
+    url: /portfolio/nowthen/
     children:
       - title: "Mississipi Records (interview with Eric Isaacson)"
-        url: /child-1-page-url/
+        url: /portfolio/nowthen/mississipi_records/
       - title: "Wet Nuns at Tramlines Festival"
-        url: /child-2-page-url/
+        url: /portfolio/nowthen/wet_nuns/
   - title: "Personal"
     url: /personal/
     children:

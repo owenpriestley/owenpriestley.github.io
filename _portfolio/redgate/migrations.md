@@ -13,7 +13,7 @@ sidebar:
      <p><a href="portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf" class="btn btn--info">PDF</a> <a href="https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts" class="btn btn--info">Confluence</a></p>
      </div>
 
-## What are migration scripts?
+	 ## What are migration scripts?
 
 When you deploy changes committed to version control, the SQL Compare
 engine generates a deployment script to update the target database. You
