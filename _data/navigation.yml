@@ -17,9 +17,9 @@ portfolio:
       - title: "SQL Source Control"
         url: /portfolio/redgate/migrations/
       - title: "SSDT Reference Data Manager"
-        url: /child-2-page-url/
+        url: /portfolio/redgate/ssdt/
       - title: "DLM Dashboard"
-        url: /child-2-page-url/
+        url: /portfolio/redgate/dlmdb/
   - title: "Journalism"
     url: /portfolio/journalism/
     children:
