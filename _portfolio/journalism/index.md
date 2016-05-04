@@ -3,7 +3,7 @@ title: "NowThen"
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
-permalink: /portfolio/nowthen/
+permalink: /portfolio/journalism/
 sidebar:
   nav: "portfolio"
 ---

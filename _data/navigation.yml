@@ -11,7 +11,7 @@ main:
 
 # _data/navigation.yml
 portfolio:
-  - title: "Redgate Software"
+  - title: "Technical writing"
     url: /portfolio/redgate/
     children:
       - title: "SQL Source Control"
@@ -20,17 +20,18 @@ portfolio:
         url: /child-2-page-url/
       - title: "DLM Dashboard"
         url: /child-2-page-url/
-  - title: "NowThen Magazine"
-    url: /portfolio/nowthen/
+  - title: "Journalism"
+    url: /portfolio/journalism/
     children:
       - title: "Mississipi Records (interview with Eric Isaacson)"
-        url: /portfolio/nowthen/mississipi_records/
+        url: /portfolio/journalism/mississipi_records/
       - title: "Wet Nuns at Tramlines Festival"
-        url: /portfolio/nowthen/wet_nuns/
-  - title: "Personal"
+        url: /portfolio/journalism/wet_nuns/
+      - title: "Louis Theroux on Scientology"
+        url: /portfolio/journalism/scientology/
+  - title: "Blogging"
     url: /personal/
     children:
-      - title: "Moving to Canada"
+      - title: "The Hogtown Enquirer, or moving to Toronto"
         url: /child-1-page-url/
-      - title: "Louis Theroux on Scientology"
-        url: /child-2-page-url/
+      
