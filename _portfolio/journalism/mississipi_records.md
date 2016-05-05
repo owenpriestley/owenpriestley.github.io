@@ -3,7 +3,7 @@ title: "Mississipi Records"
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
-permalink: /portfolio/journalism/mississipi_records
+permalink: /portfolio/journalism/mississipi_records/
 sidebar:
   nav: "portfolio"
 ---
