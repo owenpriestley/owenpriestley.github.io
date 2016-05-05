@@ -46,3 +46,5 @@ Mississippi Records is centred around a DIY ethic; from the recording of musicia
 Eric was the perfect companion to the footage, and despite the two never having met, Eric showed great enthusiasm and genuine belief in continuing Lomax's work. This is the first time Eric has done any kind of tour, and from speaking to him after the show, I gathered it could be the only time.
 
 "I've always liked the idea of appreciation" He explained. "But I don't like the idea of direct attention. Maybe the best way for me to operate is in darkness, in secret. It's working; this is proof. People are getting the records, getting the ideas without me having to say anything. In the future if I do something like this I want it to be more about art than a message."
+
+_Originally published in NowThen magazine, August 2013._
