@@ -15,8 +15,6 @@ The second, Louis Theroux’s My Scientology Movie, premiered at London Film Fes
 
 In an interview with Joe Rogan last year, Louis discussed his fascination with Scientology, and the difficulty he’s had trying to gain access to the church. He tells Rogan that after reading countless books over the years, Louis himself still grapples with what the church actually does.
 
->Part of the documentary is trying to convey what Scientology is. I’ve been studying it for about 15–20 years, and I still don’t quite get what it is…
-
 In this ambitious and completely unique documentary, Louis spends most of his time with Marty Rathburn, perhaps the most famous high ranking Scientologist to leave and publicly discuss the church.  
 
 Marty helps Louis to cast actors and recreate some of the scenes alleged to have taken place at the church’s infamous ‘Gold Base’. Many of these scenes are described in great detail by ex-members, including Marty himself, in Going Clear.  
