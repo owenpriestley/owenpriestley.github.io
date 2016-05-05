@@ -11,6 +11,8 @@ With two high-profile documentaries on Scientology being released at either end 
 
 The second, Louis Theroux’s My Scientology Movie, premiered at London Film Festival last week and is decidedly more lighthearted. Louis exposes the church from a completely different angle. In many ways, however, it’s possible to view the film as a follow up to Going Clear.  
 
+![image-center](/images/scientology.jpeg){: .align-center}
+
 In an interview with Joe Rogan last year, Louis discussed his fascination with Scientology, and the difficulty he’s had trying to gain access to the church. He tells Rogan that after reading countless books over the years, Louis himself still grapples with what the church actually does.
 
 >Part of the documentary is trying to convey what Scientology is. I’ve been studying it for about 15–20 years, and I still don’t quite get what it is…
