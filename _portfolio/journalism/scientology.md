@@ -7,9 +7,9 @@ permalink: /portfolio/journalism/scientology/
 sidebar:
   nav: "portfolio"
 ---
-With two high-profile documentaries on Scientology being released at either end of this year, the enigmatic church face more public scrutiny than usual. HBO’s Going Clear: Scientology and the Prison of Belief, released in March, relies on the detailed accounts of ex-members to expose what goes on behind the church’s locked doors and razor wire.  
+With two high-profile documentaries on Scientology being released at either end of this year, the enigmatic church face more public scrutiny than usual. HBO’s [Going Clear: Scientology and the Prison of Belief](http://www.imdb.com/title/tt4257858/), released in March, relies on the detailed accounts of ex-members to expose what goes on behind the church’s locked doors and razor wire.  
 
-The second, Louis Theroux’s My Scientology Movie, premiered at London Film Festival last week and is decidedly more lighthearted. Louis exposes the church from a completely different angle. In many ways, however, it’s possible to view the film as a follow up to Going Clear.  
+The second, Louis Theroux’s [My Scientology Movie](https://whatson.bfi.org.uk/lff/Online/default.asp?BOparam::WScontent::loadArticle::permalink=myscientologymovie), premiered at London Film Festival last week and is decidedly more lighthearted. Louis exposes the church from a completely different angle. In many ways, however, it’s possible to view the film as a follow up to _Going Clear_.  
 
 ![image-center](/images/scientology.jpeg){: .align-center}
 
@@ -17,7 +17,7 @@ In an interview with Joe Rogan last year, Louis discussed his fascination with S
 
 In this ambitious and completely unique documentary, Louis spends most of his time with Marty Rathburn, perhaps the most famous high ranking Scientologist to leave and publicly discuss the church.  
 
-Marty helps Louis to cast actors and recreate some of the scenes alleged to have taken place at the church’s infamous ‘Gold Base’. Many of these scenes are described in great detail by ex-members, including Marty himself, in Going Clear.  
+Marty helps Louis to cast actors and recreate some of the scenes alleged to have taken place at the church’s infamous [‘Gold Base’](https://en.wikipedia.org/wiki/Gold_Base). Many of these scenes are described in great detail by ex-members, including Marty himself, in _Going Clear_.  
 
 It’s fascinating to watch Marty and Louis audition aspiring Hollywood actors to portray church members. Andrew Perez gives a particularly outstanding performance as church leader David Miscavage.  
 
@@ -29,6 +29,6 @@ Within a couple of weeks, Louis is followed around Hollywood for over an hour by
 
 The latter half of the film focuses more heavily on Marty Rathburn and his life after leaving the church. In other interviews, Marty’s word is taken as gospel, but Louis digs deeper for things left out of previous interviews, eventually leading to confrontation.  
 
-In the Q&A following the screening, Louis talked about the ongoing threats of legal action, and how much he looks forward to the counter documentary thatthe church are making about him.  
+In the Q&A following the screening, Louis talked about the ongoing threats of legal action, and how much he looks forward to [the counter documentary](http://www.theguardian.com/film/2015/may/04/counter-documentaries-louis-theroux-church-of-scientology) that the church are making about him.  
 
 Louis Theroux’s first feature film has much more to offer than an insight into the church. In fact, you don’t have to be remotely interested in Scientology to enjoy the bizarre events that unfold as a result of this ingenious project.  
