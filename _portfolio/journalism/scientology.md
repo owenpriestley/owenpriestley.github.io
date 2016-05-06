@@ -4,14 +4,14 @@ layout: single
 excerpt: "Owen Priestley"
 sitemap: true
 permalink: /portfolio/journalism/scientology/
+header:
+  image: scientology_hero.png
 sidebar:
   nav: "portfolio"
 ---
 With two high-profile documentaries on Scientology being released at either end of this year, the enigmatic church face more public scrutiny than usual. HBO’s [Going Clear: Scientology and the Prison of Belief](http://www.imdb.com/title/tt4257858/), released in March, relies on the detailed accounts of ex-members to expose what goes on behind the church’s locked doors and razor wire.  
 
 The second, Louis Theroux’s [My Scientology Movie](https://whatson.bfi.org.uk/lff/Online/default.asp?BOparam::WScontent::loadArticle::permalink=myscientologymovie), premiered at London Film Festival last week and is decidedly more lighthearted. Louis exposes the church from a completely different angle. In many ways, however, it’s possible to view the film as a follow up to _Going Clear_.  
-
-![image-center](/images/scientology.jpeg){: .align-center}
 
 In an interview with Joe Rogan last year, Louis discussed his fascination with Scientology, and the difficulty he’s had trying to gain access to the church. He tells Rogan that after reading countless books over the years, Louis himself still grapples with what the church actually does.
 
