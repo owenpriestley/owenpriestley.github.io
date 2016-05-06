@@ -23,8 +23,8 @@ portfolio:
   - title: "Journalism"
     url: /portfolio/journalism/
     children:
-      - title: "Mississipi Records (interview with Eric Isaacson)"
-        url: /portfolio/journalism/mississipi_records/
+      - title: "Mississippi Records (interview with Eric Isaacson)"
+        url: /portfolio/journalism/mississippi_records/
       - title: "Wet Nuns at Tramlines Festival"
         url: /portfolio/journalism/wet_nuns/
       - title: "Louis Theroux on Scientology"
