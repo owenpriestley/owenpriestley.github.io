@@ -5,8 +5,8 @@ excerpt: "Owen Priestley"
 sitemap: true
 permalink: /cv/
 ---
-<h1 style="text-align: center; color: navy; text-indent: -1em; text-decoration: underline"><i>WORK EXPERIENCE</i></h1>
-
+<h1 style="color: #FE4365; text-align: center; text-indent: -1em">Work Experience</h1>
+* * * 
 
 <h2 style="color: black">Technical writer</h2>
 <p>Redgate Software<br/>
@@ -48,10 +48,9 @@ permalink: /cv/
 - Produced and edited written communications for internal distribution.
 - Researched competitor products and services and produced written reports for training.
 
-
 <br/>
-<h1 style="text-align: center; color: navy; text-indent: -1em; text-decoration: underline"><i>EDUCATION</i></h1>
-
+<h1 style="text-align: center; color: #FE4365; text-indent: -1em">Education</h1>
+* * * 
 
 <h2 style="color: black">B.A. Honours: Creative Writing</h2>  
 <p>Sheffield Hallam University<br/>
@@ -70,9 +69,9 @@ permalink: /cv/
 - Used Adobe creative suites to produce promotional and informative materials, both for digital and print consumption.
 - Studied fundamental media theory and applied it to the analysis of existing work.
 
-
 <br/>
-<h1 style="text-align: center; color: navy; text-indent: -1em; text-decoration: underline"><i>ADDITIONAL SKILLS</i></h1><br/>
+<h1 style="color: #FE4365; text-align: center; text-indent: -1em">Other skills</h1>
+* * * 
 
 - Knowledge of Adobe Creative Suite and Creative Cloud.
 - Substantial experience with Microsoft Office.
