@@ -20,10 +20,10 @@
   border-radius: $border-radius;
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
-  h1 {
+  h2 {
     margin-top: 0 !important; // override
     margin-bottom: 0.75em;
-    color: black;
+    color: #494e52;
   }
 
   @at-root .page__content #{&} h4 {
@@ -38,11 +38,11 @@
     }
   }
 
-  h1 + p {
+  h2 + p {
     // remove space above paragraphs that appear directly after notice headline
     margin-top: 0;
     padding-top: 0;
-    color: black;
+    color: #494e52;
   }
 
   a {

@@ -14,7 +14,7 @@ I joined the SQL Source Control team to help document the overhaul of the migrat
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 
 <div markdown="1" class="notice">
-#### Working with migration scripts
+## Working with migration scripts
 <h3>What are migration scripts?</h3>
 <p>When you deploy changes committed to version control, the SQL Compare
 engine generates a deployment script to update the target database.You
