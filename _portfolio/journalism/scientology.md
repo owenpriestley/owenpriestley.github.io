@@ -33,4 +33,4 @@ In the Q&A following the screening, Louis talked about the ongoing threats of le
 
 Louis Theroux’s first feature film has much more to offer than an insight into the church. In fact, you don’t have to be remotely interested in Scientology to enjoy the bizarre events that unfold as a result of this ingenious project.
 
-_Originally published on [Medium.com](https://medium.com/@owenpriestley/louis-theroux-on-scientology-741cad9ca4ef#.s6qq0jbud), October 2015_
+_Originally published on [Medium](https://medium.com/@owenpriestley/louis-theroux-on-scientology-741cad9ca4ef#.s6qq0jbud), October 2015_
