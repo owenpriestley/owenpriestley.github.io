@@ -4,6 +4,8 @@ layout: single
 excerpt: "Owen Priestley"
 sitemap: true
 permalink: /portfolio/journalism/wet_nuns/
+header:
+  image: tramlines_hero.png
 sidebar:
   nav: "portfolio"
 ---
