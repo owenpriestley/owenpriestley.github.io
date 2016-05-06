@@ -20,7 +20,6 @@ portfolio:
       - title: "DLM Dashboard"
         url: /portfolio/redgate/dlmdb/
   - title: "Journalism"
-    url: /portfolio/journalism/
     children:
       - title: "Mississippi Records (interview with Eric Isaacson)"
         url: /portfolio/journalism/mississippi_records/
@@ -31,7 +30,6 @@ portfolio:
       - title: "Louis Theroux on Scientology"
         url: /portfolio/journalism/scientology/
   - title: "Blogging"
-    url: /personal/
     children:
       - title: "The Hogtown Enquirer, or moving to Toronto"
         url: /child-1-page-url/
