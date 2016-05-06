@@ -12,7 +12,6 @@ main:
 # _data/navigation.yml
 portfolio:
   - title: "Technical writing"
-    url: /portfolio/redgate/
     children:
       - title: "SQL Source Control"
         url: /portfolio/redgate/migrations/
