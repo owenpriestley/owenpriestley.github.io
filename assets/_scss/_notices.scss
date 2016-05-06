@@ -20,7 +20,7 @@
   border-radius: $border-radius;
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
-  h4 {
+  h3 {
     margin-top: 0 !important; // override
     margin-bottom: 0.75em;
   }
@@ -37,7 +37,7 @@
     }
   }
 
-  h4 + p {
+  h3 + p {
     // remove space above paragraphs that appear directly after notice headline
     margin-top: 0;
     padding-top: 0;
@@ -83,7 +83,6 @@
 /* Warning notice */
 
 .notice--warning {
-  color: black;
   @include notice($warning-color);
 }
 
