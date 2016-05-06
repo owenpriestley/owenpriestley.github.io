@@ -7,12 +7,14 @@ permalink: /portfolio/redgate/migrations/
 sidebar:
   nav: "portfolio"
 ---
+{% include toc %}
 
 I joined the SQL Source Control team to help document the overhaul of the migrations feature in the software. 
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 
-<div class="notice"><h2 class="inside">Working with migration scripts</h2>
+<div markdown="1" class="notice">
+# Working with migration scripts
 <h3>What are migration scripts?</h3>
 <p>When you deploy changes committed to version control, the SQL Compare
 engine generates a deployment script to update the target database.You

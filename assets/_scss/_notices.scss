@@ -83,6 +83,7 @@
 /* Warning notice */
 
 .notice--warning {
+  color: black;
   @include notice($warning-color);
 }
 
