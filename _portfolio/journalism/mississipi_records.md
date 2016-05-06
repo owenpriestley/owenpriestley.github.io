@@ -9,7 +9,7 @@ header:
 sidebar:
   nav: "portfolio"
 ---
-Mississippi Records is a truly unique record store; it's slogan Love Over Gold, perfectly sums up both the store, and owner Eric Isaacson's goals.
+Mississippi Records is a truly unique record store. Their slogan: _Love Over Gold_, perfectly sums up both the store, and owner Eric Isaacson's goals.
 
 **I Don't Feel At Home In This World Anymore** is an in depth exploration into culture and how it's expressed, recorded and consumed by society today. Eric skilfully achieves this through the use of his own archival footage, as well as a vast collection of clips from the archives of Alan Lomax; whose obsession with capturing culture before it became extinct has produced over 300 hours of footage.
 
