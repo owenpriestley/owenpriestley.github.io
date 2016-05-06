@@ -23,6 +23,7 @@
   h3 {
     margin-top: 0 !important; // override
     margin-bottom: 0.75em;
+    color: black;
   }
 
   @at-root .page__content #{&} h4 {
@@ -41,6 +42,7 @@
     // remove space above paragraphs that appear directly after notice headline
     margin-top: 0;
     padding-top: 0;
+    color: black;
   }
 
   a {
