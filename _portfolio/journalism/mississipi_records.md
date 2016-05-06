@@ -5,7 +5,7 @@ excerpt: "Owen Priestley"
 sitemap: true
 permalink: /portfolio/journalism/mississippi_records/
 header:
-  image: mississippi.jpeg
+  image: mississippi_hero.png
 sidebar:
   nav: "portfolio"
 ---
