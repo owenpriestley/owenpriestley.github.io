@@ -25,6 +25,12 @@
     margin-bottom: 0.75em;
     color: #494e52;
   }
+  
+    h2.subtitle {
+    margin-top: 0 !important; // override
+    margin-bottom: 0 !important;
+    color: #494e52;
+  }
 
   @at-root .page__content #{&} h4 {
     // using at-root to override .page-content h4 font size

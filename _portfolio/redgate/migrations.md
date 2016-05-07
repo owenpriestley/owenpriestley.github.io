@@ -76,6 +76,8 @@ _Originally published on SimpleTalk, April 2016_
 
 <div markdown="1" class="notice">
 # Working with migration scripts
+
+#### Blog post
 <h2>Documentation</h2>
 <h3>What are migration scripts?</h3>
 <p>When you deploy changes committed to version control, the SQL Compare
