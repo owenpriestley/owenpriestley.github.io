@@ -27,10 +27,12 @@
   }
   
     h2.subtitle {
-    margin-top: -15px !important; // override
-    margin-bottom: -15px !important;
-    font-size: 3em;
     color: #494e52;
+    margin-top: -15px !important;
+    margin-bottom: -15px !important;
+    font-size: 12px;
+    font-weight: lighter;
+    text-indent: 10px;
   }
 
   @at-root .page__content #{&} h4 {
