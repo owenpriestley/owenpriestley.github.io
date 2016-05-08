@@ -12,96 +12,110 @@ I joined the SQL Source Control team to help document the overhaul of the migrat
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 
-<div class="notice"><h2 class="inside">Working with migration scripts</h2>
-<h3>What are migration scripts?</h3>
-<p>When you deploy changes committed to version control, the SQL Compare
-engine generates a deployment script to update the target database.You
-can use a migration script to add custom SQL to a specific point in this
-deployment script.</p>
+    <None version="1">
+    <Include>True</Include>
+    <Expression>TRUE</Expression>
+    </None>
 
-<p>Migration scripts are necessary to avoid data loss when making certain
-schema changes. To achieve this, the migration script intervenes to make
-data changes occur at the right point of the deployment.</p>
+<div markdown="1" class="notice"><h2 class="inside">Working with migration scripts</h2>
 
-<p>In most cases, you only need to write SQL for the data changes in the
-migration script. Schema changes are committed separately and deployed
-as normal.</p>
+You can ignore changes to objects you're not interested in by adding a filter file to your pipeline. The file contains rules to ignore objects by name or type. Filtered objects won't trigger updates or drift, and aren't included in email notifications or reported on the Review page.
 
-<h3>Creating a migration script</h3>
+The filter file must contain valid XML and have a .scpf extension. You can create filters using SQL Compare or SQL Source Control, write your own, or download and edit this [.scpf example file][35]. 
 
-To create a new migration script:<br/>
+Some changes are [ignored by default][36] and aren't affected by custom filters.
+
+### Create a filter in SQL Compare or SQL Source Control
+
+DLM Dashboard supports filters created using SQL Compare or SQL Source Control:
+
+* to create filters using SQL Compare, see [Using filters][37]
+* to create filters using SQL Source Control, see [Using filters to exclude objects][38]
+
+### Use an example filter
+
+We've provided a .scpf example file for you to download, and details of how to customize it. 
+
+#### **Ignore objects by name**
+
+In this example, you'll update the filter file to ignore changes to objects called `IGNORE`, or that start with `TEMP`.
 <ol>
-<li>From the <strong>Object Explorer</strong>, select the database you want to add a
-    migration script to.</li>
-
-<li>From the toolbar, select <strong>SQL Source Control</strong>.<br/> 
-The SQL Source Control window opens.</li>
-
-<li>Go to the <strong>Migrations</strong> tab.</li>
-
-<li>Select the type of migration script, depending on your development
-    process and the changes you're making.</li>
-
-<li>In the <strong>Name</strong> field, enter a name for the script.</li>
-
-<li>In the editor window, write SQL to make the required changes.</li>
-
-<li>Click <strong>Save & Close</strong>.</li>
-
-<li>Commit the changes to version control.</li>
+<li>Download the .scpf example file.</li>
+<li>Open the file in a text editor.</li>
+<li>At lines 12 to 15, replace:</li>
 </ol>
- <p>Always commit a new migration script immediately after saving it.</p>
- <p>Making changes to your database schema between saving and committing
- migration scripts can cause errors during deployment.</p>
 
-<p>When you deploy this revision from version control, or use <strong>Get
-latest</strong> in SQL Source Control on another machine, the migration script
-will run as part of the deployment.</p>
+    <None version="1">
+    <Include>True</Include>
+    <Expression>TRUE</Expression>
+    </None>
+    
+with:
 
-For more information, see <a style="color: #52adc8" href="https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work">How migration scripts work</a><br/>
+    <None version="1">
+    <Include>False</Include>
+    <Expression>(@NAME = 'IGNORE') OR (@NAME LIKE 'TEMP%')</Expression> <!-- Excludes objects called IGNORE and objects beginning with TEMP -->
+    </None>
 
-<h3>Editing migration scripts</h3>
-<p>You can edit or delete existing migration scripts from
-the <strong>Migrations</strong> tab in SQL Source Control:</p>
+The `%` is a wildcard. Ignore multiple objects using the boolean operators `AND` / `OR `
+
+<ol start="4">
+<li>Save the filter with the extension .scpf, then add it to DLM Dashboard.</li>
+</ol>
+
+#### **Ignore objects by type**
+
+In this example, you'll update the filter file to include or ignore changes to stored procedures.
 <ol>
-<li>From the <strong>Object Explorer</strong>, select a database with
-    migration scripts.</li>
-<li>From the toolbar, select <strong>SQL Source Control</strong>.  
-    The SQL Source Control window opens.</li>
-<li>Go to the <strong>Migrations</strong> tab.</li>
-<li>Expand <strong>Existing migration scripts</strong>. 
-    Migration scripts on the remote repository are listed.</li> 
-<li>In the <strong>Actions</strong> column, click <strong>View / Edit</strong> next to a migration script.</li>
-<li>Edit the script to make the required changes.</li>
-<li>Click <strong>Save & Close</strong>.</li>
-<li>Go to the <strong>Commit changes</strong> tab and commit the updated
-    migration script.</li>
+<li>Download the .scpf example file.</li>
+<li>Open the file in a text editor.</li>
+<li>At lines 108 to 111, replace:</li>
 </ol>
-<p>Once committed, the updated migration script is used in all future
-deployments.</p>
+    <StoredProcedure version="1">
+    <Include>True</Include>
+    <Expression>TRUE</Expression>
+    </StoredProcedure>
 
-  <strong>Guidelines for editing migration scripts:</strong>
-  <p><ul>
-   <li>Don't create new object dependencies. This is likely to cause errors during deployment.</li> 
-   <li>Don't add/remove DDL changes. This might create an invalid state in version control.</li>
-   <li>If you edit the syntax of DDL changes, the resulting schema must stay the same.</li>
-  </ul></p>
+with:
 
-<h3>Deploying with migration scripts</h3>
+    <StoredProcedure version="1">
+    <Include>True</Include>
+    <Expression /> <!-- Excludes changes to stored procedures -->
+    </StoredProcedure>
+<ol start="4">
+<li>Save the filter with the extension .scpf, then add it to DLM Dashboard.</li>
+</ol>
 
-<p>We recommend using SQL Compare to deploy changes to production, as you
-have the opportunity to review the deployment script before it's
-deployed. </p>
+### Add a filter
 
-<p>It is possible to use the <strong>Get latest</strong> function in SQL
-Source Control to deploy these changes, however we don't recommend
-linking your production database directly to source control.</p>
+1. On the pipeline you want to apply the filter to, click **Filter objects**:  
+![image-left](/images/dlmdb_fo.png)
+2. Click **Choose file** and select the .scpf file.   
+By default, SQL Compare stores filter files in _%USERPROFILE%DocumentsSQL CompareFilters_
+3. Click **Apply**.  
+DLM Dashboard uploads the filter and applies it to the databases in your pipeline.   
 
-<strong>Dependencies</strong>
+When you add a filter, DLM Dashboard detects a schema change, takes a snapshot, and compares it with the previous schema version. This may take a few minutes. 
+Once you apply the filter, the change may show as database drift.
 
-<p>When you create a migration script that includes uncommitted schema
-changes, SQL Source Control automatically includes any dependencies.</p>
-<p>Deselecting any of these dependencies during the deployment stage will
-cause the deployment to fail.</p>
+### Edit a filter
+
+To change the filter file that already applies to a pipeline:
+
+1. Click **Download**.
+2. Open the file in a text editor and update the rules.   
+For examples, see Ignore objects by name and Ignore objects by type
+3. Save the filter with the extension .scpf.
+4. Remove the filter file that's currently applied to the pipeline. To do this, on the dashboard, click **Remove**. 
+5. Add the edited filter to DLM Dashboard. See Add a filter.
+
+When you remove and then add a filter, DLM Dashboard detects a schema change, takes a snapshot, and compares it with the previous schema version. This may take a few minutes.
+
+Once you apply the filter, the change may show as database drift.
+
+### Creating new pipelines
+
+When you move a database from a filtered pipeline to a newly created pipeline, the filter file is applied to the new pipeline. When you move a database to an existing pipeline, this won't affect any filters on it - the database will use any filter on to the pipeline it moves to.
+
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/dlmdb_filters.pdf){: .btn .btn--small}
 </div>
-[PDF](portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf){: .btn .btn--small} [Confluence](https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts){: .btn .btn--small}
