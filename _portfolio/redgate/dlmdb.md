@@ -17,7 +17,13 @@ Migration scripts are a particularly difficult feature to document, as each user
     <Expression>TRUE</Expression>
     </None>
 
-<div markdown="1" class="notice"><h2 class="inside">Working with migration scripts</h2>
+<div markdown="1" class="notice">
+# Using filters in DLM Dashboard
+
+<h2 class="subtitle">Part of the DLM Dashboard documentation</h2>
+
+<h3> </h3>
+
 
 You can ignore changes to objects you're not interested in by adding a filter file to your pipeline. The file contains rules to ignore objects by name or type. Filtered objects won't trigger updates or drift, and aren't included in email notifications or reported on the Review page.
 
