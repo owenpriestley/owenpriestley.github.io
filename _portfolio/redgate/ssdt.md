@@ -12,96 +12,41 @@ I joined the SQL Source Control team to help document the overhaul of the migrat
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 
-<div class="notice"><h2 class="inside">Working with migration scripts</h2>
-<h3>What are migration scripts?</h3>
-<p>When you deploy changes committed to version control, the SQL Compare
-engine generates a deployment script to update the target database.You
-can use a migration script to add custom SQL to a specific point in this
-deployment script.</p>
+<div markdown="1" class="notice">
+# How Reference Data Manager works
+<h2 class="subtitle">Technical explanation sent to beta users</h2>
+<h3> </h3>
+<hr>
 
-<p>Migration scripts are necessary to avoid data loss when making certain
-schema changes. To achieve this, the migration script intervenes to make
-data changes occur at the right point of the deployment.</p>
+Reference Data Manager is installed in two parts: a Visual Studio extension and the essential build components. The extension allows you to create and edit database projects with reference data, whilst the essential build components are required to build and deploy those projects.
 
-<p>In most cases, you only need to write SQL for the data changes in the
-migration script. Schema changes are committed separately and deployed
-as normal.</p>
+With the extension installed, you'll have the option to **Add New Reference Data File** when right-clicking a table in the solution explorer. You can create a reference data file based on the contents of a CSV file, or create an empty reference data file and manually specify data using `INSERT` statements.
 
-<h3>Creating a migration script</h3>
+When you build the project, Reference Data Manager uses the build components to incorporate any reference data files into the DACPAC, along with the other database objects.
 
-To create a new migration script:<br/>
-<ol>
-<li>From the <strong>Object Explorer</strong>, select the database you want to add a
-    migration script to.</li>
+### Reference data files
 
-<li>From the toolbar, select <strong>SQL Source Control</strong>.<br/> 
-The SQL Source Control window opens.</li>
+A reference data file uses `INSERT` statements to specify reference data for the table it depends upon. When you create a new reference data file (_.refdata.sql_) for a table in SSDT, Reference Data Manager updates the project file (_.sqlproj_) with a dependency to reflect this:
 
-<li>Go to the <strong>Migrations</strong> tab.</li>
+![image-left](/images/ssdt.png)
 
-<li>Select the type of migration script, depending on your development
-    process and the changes you're making.</li>
+During deployment, Reference Data Manager compares the contents of the reference data file to the target table, and updates the target accordingly. Any rows that aren't present in the reference data file will be deleted from the target table.
 
-<li>In the <strong>Name</strong> field, enter a name for the script.</li>
+Reference Data Manager uses three components to process your reference data and add it to a DACPAC for deployment. These components are installed separately, and must be present in addition to the Visual Studio extension on the build machine:</span>
 
-<li>In the editor window, write SQL to make the required changes.</li>
+#### Build task
 
-<li>Click <strong>Save & Close</strong>.</li>
+The build task takes the project file (_.sqlproj_) and looks for reference data files (_.refdata.sql_) and their corresponding table files. It produces a build catalog, containing a list of table filenames and their associated reference data filenames.
 
-<li>Commit the changes to version control.</li>
-</ol>
- <p>Always commit a new migration script immediately after saving it.</p>
- <p>Making changes to your database schema between saving and committing
- migration scripts can cause errors during deployment.</p>
+#### Build contributor
 
-<p>When you deploy this revision from version control, or use <strong>Get
-latest</strong> in SQL Source Control on another machine, the migration script
-will run as part of the deployment.</p>
+The build contributor takes the build catalog, produced by the build task, and replaces table filenames with table names. The result is a new deployment catalog file, for the deployment contributor. This removes any discrepancies between table filenames and table names.
 
-For more information, see <a style="color: #52adc8" href="https://documentation.red-gate.com/display/SOC5/How+migration+scripts+work">How migration scripts work</a><br/>
+#### Deployment contributor
 
-<h3>Editing migration scripts</h3>
-<p>You can edit or delete existing migration scripts from
-the <strong>Migrations</strong> tab in SQL Source Control:</p>
-<ol>
-<li>From the <strong>Object Explorer</strong>, select a database with
-    migration scripts.</li>
-<li>From the toolbar, select <strong>SQL Source Control</strong>.  
-    The SQL Source Control window opens.</li>
-<li>Go to the <strong>Migrations</strong> tab.</li>
-<li>Expand <strong>Existing migration scripts</strong>. 
-    Migration scripts on the remote repository are listed.</li> 
-<li>In the <strong>Actions</strong> column, click <strong>View / Edit</strong> next to a migration script.</li>
-<li>Edit the script to make the required changes.</li>
-<li>Click <strong>Save & Close</strong>.</li>
-<li>Go to the <strong>Commit changes</strong> tab and commit the updated
-    migration script.</li>
-</ol>
-<p>Once committed, the updated migration script is used in all future
-deployments.</p>
+The deployment contributor uses the deployment catalog to add reference data files to the DACPAC, along with the name of the table that the data belongs to.
 
-  <strong>Guidelines for editing migration scripts:</strong>
-  <p><ul>
-   <li>Don't create new object dependencies. This is likely to cause errors during deployment.</li> 
-   <li>Don't add/remove DDL changes. This might create an invalid state in version control.</li>
-   <li>If you edit the syntax of DDL changes, the resulting schema must stay the same.</li>
-  </ul></p>
+During deployment, the deployment contributor adds `INSERT`, `UPDATE` and `DELETE` statements to the deployment script, based on the differences between reference data in the source (the DACPAC) and the target database.
 
-<h3>Deploying with migration scripts</h3>
-
-<p>We recommend using SQL Compare to deploy changes to production, as you
-have the opportunity to review the deployment script before it's
-deployed. </p>
-
-<p>It is possible to use the <strong>Get latest</strong> function in SQL
-Source Control to deploy these changes, however we don't recommend
-linking your production database directly to source control.</p>
-
-<strong>Dependencies</strong>
-
-<p>When you create a migration script that includes uncommitted schema
-changes, SQL Source Control automatically includes any dependencies.</p>
-<p>Deselecting any of these dependencies during the deployment stage will
-cause the deployment to fail.</p>
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/ssdt.pdf){: .btn .btn--small}
 </div>
-[PDF](portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf){: .btn .btn--small} [Confluence](https://documentation.red-gate.com/display/SOC5/Working+with+migration+scripts){: .btn .btn--small}
