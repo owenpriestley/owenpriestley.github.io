@@ -29,14 +29,14 @@ You can ignore changes to objects you're not interested in by adding a filter fi
 
 The filter file must contain valid XML and have a .scpf extension. You can create filters using SQL Compare or SQL Source Control, write your own, or download and edit this [.scpf example file][35]. 
 
-Some changes are [ignored by default][36] and aren't affected by custom filters.
+Some changes are ignored by default and aren't affected by custom filters.
 
 ### Create a filter in SQL Compare or SQL Source Control
 
 DLM Dashboard supports filters created using SQL Compare or SQL Source Control:
 
-* to create filters using SQL Compare, see [Using filters][37]
-* to create filters using SQL Source Control, see [Using filters to exclude objects][38]
+* to create filters using SQL Compare, see [Using filters](https://documentation.red-gate.com/display/SC11/Using+filters)(SQL Compare 11 documentation).
+* to create filters using SQL Source Control, see [Exclude objects using filters](https://documentation.red-gate.com/display/SOC5/Exclude+objects+using+filters).
 
 ### Use an example filter
 
