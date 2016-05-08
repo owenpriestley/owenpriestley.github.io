@@ -8,9 +8,10 @@ sidebar:
   nav: "portfolio"
 ---
 
-I joined the SQL Source Control team to help document the overhaul of the migrations feature in the software. 
+DLM Dashboard is a free tool that monitors databases and alerts users to unapproved schema changes. Once installed, DLM Dashboard runs as a service on the machine and is accessed via the web browser. Through this interface, users can add new servers and databases, and view a history of schema changes on monitored databases.
 
-Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
+I arrived on DLM Dashboard as the product was transitioning from a simple tool - a beta version capped at five databases - to a more powerful tool with specific goals in mind. During my time on the team, we frequently released updates and engaged with users to best solve their problems. This involved adding new organisational features - the ability to group databases by server, pipeline or category - and increased flexibility with the introduction of permissions and roles.
+
 <div markdown="1" class="notice">
 <h1>Using filters in DLM Dashboard</h1>
 <h2 class="subtitle">Part of the DLM Dashboard documentation</h2>
