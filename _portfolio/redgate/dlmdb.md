@@ -11,13 +11,8 @@ sidebar:
 I joined the SQL Source Control team to help document the overhaul of the migrations feature in the software. 
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
-
-    <None version="1">
-    <Include>True</Include>
-    <Expression>TRUE</Expression>
-    </None>
-
 <div markdown="1" class="notice">
+
 # Using filters in DLM Dashboard
 
 <h2 class="subtitle">Part of the DLM Dashboard documentation</h2>
