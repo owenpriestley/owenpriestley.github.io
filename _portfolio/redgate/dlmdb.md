@@ -12,14 +12,9 @@ I joined the SQL Source Control team to help document the overhaul of the migrat
 
 Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
 <div markdown="1" class="notice">
-
-# Using filters in DLM Dashboard
-
+<h1>Using filters in DLM Dashboard</h1>
 <h2 class="subtitle">Part of the DLM Dashboard documentation</h2>
-
 <h3> </h3>
-
-
 You can ignore changes to objects you're not interested in by adding a filter file to your pipeline. The file contains rules to ignore objects by name or type. Filtered objects won't trigger updates or drift, and aren't included in email notifications or reported on the Review page.
 
 The filter file must contain valid XML and have a .scpf extension. You can create filters using SQL Compare or SQL Source Control, write your own, or download and edit this [.scpf example file][35]. 
@@ -30,7 +25,7 @@ Some changes are ignored by default and aren't affected by custom filters.
 
 DLM Dashboard supports filters created using SQL Compare or SQL Source Control:
 
-* to create filters using SQL Compare, see [Using filters](https://documentation.red-gate.com/display/SC11/Using+filters)(SQL Compare 11 documentation).
+* to create filters using SQL Compare, see [Using filters](https://documentation.red-gate.com/display/SC11/Using+filters).
 * to create filters using SQL Source Control, see [Exclude objects using filters](https://documentation.red-gate.com/display/SOC5/Exclude+objects+using+filters).
 
 ### Use an example filter
