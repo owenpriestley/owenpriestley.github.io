@@ -32,5 +32,5 @@ portfolio:
   - title: "Blogging"
     children:
       - title: "The Hogtown Enquirer, or moving to Toronto"
-        url: /child-1-page-url/
+        url: /portfolio/blog/toronto/
       
