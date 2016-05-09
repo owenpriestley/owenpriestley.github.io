@@ -1,5 +1,5 @@
 ---
-title: "SSDT Reference Data Manager"
+title: "Reference Data Manager"
 layout: single
 excerpt: "Owen Priestley"
 sitemap: true
@@ -7,7 +7,7 @@ permalink: /portfolio/redgate/ssdt/
 sidebar:
   nav: "portfolio"
 ---
-Reference Data Manager started its life as a research project, with the goal of discovering whether users of Visual Studio Database Projects experienced significant pain when managing reference data (or static data), and whether it was feasible to build a tool that solved this problem.
+Reference Data Manager started life as a research project, with the goal of discovering whether users of Visual Studio Database Projects experienced significant pain when managing reference data (or static data), and whether it was feasible to build a tool that solved this problem.
 
 I joined shortly after an alpha version of the tool was developed, at which point the team expanded from three to ten. This was the first time I’d worked on a tool in such an embryonic state. 
 
@@ -16,7 +16,7 @@ I worked closely with the UX designer on the team to develop various interfaces 
 I was solely responsible for preparing supporting documentation for the tool, building up a space from scratch in Confluence. I also worked with the product marketing manager to prepare copy for blog posts and newsletters, and wrote and recorded a promotional video to demonstrate the tool.
 <div markdown="1" class="notice">
 # How Reference Data Manager works
-<h2 class="subtitle">Technical explanation sent to beta users</h2>
+<h2 class="subtitle">A technical explanation sent to beta users</h2>
 <h3> </h3>
 <hr>
 
