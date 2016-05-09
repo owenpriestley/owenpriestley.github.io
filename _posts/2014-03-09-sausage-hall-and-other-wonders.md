@@ -1,9 +1,11 @@
 ---
 layout: single
-title: Sausage Hall [and other wonders]
-date: 2014-03-09 23:27
-author: oprie
+title: Sausage Hall (and other wonders)
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/sausage_hall/
+author_profile: true
+read_time: true
 ---
 [caption id="attachment_16" align="aligncenter" width="900"]<a href="http://owenpriestley.files.wordpress.com/2014/03/ago_at_dusk.jpg"><img class=" wp-image-16 " title="The Art Gallery of Ontario's North Side" alt="AGO_at_dusk" src="http://owenpriestley.files.wordpress.com/2014/03/ago_at_dusk.jpg?w=300" width="900" height="600" /></a> The Art Gallery of Ontario's North Side[/caption]
 <p style="text-align:left;">The AGO, or <a href="www.ago.net" target="_blank">Art Gallery of Ontario</a>, is a structure that sticks out amongst Chinatown's sprawling neon lights; it's vast ship-like southern facing wall, constructed from arched wooden beams and glass provides onlookers with a brief insight into the Italian Wing (complete with espresso and gelato bar) whilst visitors to the gallery can look out onto the bustling Dundas-Spadina junction. The gallery hosts a free evening every Wednesday between six and eight o'clock, meaning anybody who happens to be in the area can duck in and appreciate the extensive collection of art from around the globe.</p>

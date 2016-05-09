@@ -2,8 +2,11 @@
 layout: single
 title: Queen & Country
 date: 2014-02-22 16:06
-author: oprie
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/queen_and_country/
+author_profile: true
+read_time: true
 ---
 <p>To mark George Washington&#8217;s birthday, the third Monday of February is Presidents Day; an all out celebration of freedom, stars, stripes and everything else American. Here, they don&#8217;t celebrate the birth of George Washington - why should they? But they do still want a public holiday, so this Monday we experienced our first Family Day: a very nice, very Canadian holiday.</p>
 <p>One thing we took advantage of on Family Day was an open day at the <a href="http://en.wikipedia.org/wiki/Elgin_and_Winter_Garden_Theatres" target="_blank">Elgin and Winter Garden Theatres</a>; a double decker theatre built in 1914, and quite unique in the fact that it remains (almost) exactly as it was on the day it opened.</p>

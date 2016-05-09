@@ -2,8 +2,11 @@
 layout: single
 title: Albinos in Tanzania
 date: 2014-03-01 01:07
-author: oprie
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/albinos_in_tanzania/
+author_profile: true
+read_time: true
 ---
 <p>The job offensive has been in full swing this week, and without a working printer, I found myself staggering through 30mph winds towards the Toronto Public Library to use their facilities to print my newfangled, all Canadian <em>resumé</em>.</p>
 <p>And what a library it is! Whilst the Canadian&#8217;s haven&#8217;t learnt the proper way to do bank accounts, mobile phone networks or VAT, they do have 3D printers in their libraries, so I guess that kind of balances things out.</p>

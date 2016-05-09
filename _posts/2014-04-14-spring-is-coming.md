@@ -1,9 +1,11 @@
 ---
 layout: single
 title: Spring Is Coming
-date: 2014-04-14 03:12
-author: oprie
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/spring_is_coming/
+author_profile: true
+read_time: true
 ---
 Yes, there's been a lapse in my strict weekly blogging schedule; I've been working full time, as have Danny and Jess, and so there's been less time to explore and thus less blogging material.
 

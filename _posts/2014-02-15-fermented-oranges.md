@@ -2,8 +2,11 @@
 layout: single
 title: Fermented Oranges
 date: 2014-02-15 00:31
-author: oprie
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/fermented_oranges/
+author_profile: true
+read_time: true
 ---
 <p><span>We&#8217;re still living the unemployed life: I don’t have an alarm clock. I rise with the low winter sun; by the chatter of black squirrels on the sill; or with the bitter chill that permeates every crevice and drags you back into the frozen world of consciousness.</span></p>
 <p>We looked at two houses this week that were perhaps the worst houses I have ever seen; including the houses I have seen in films, on television and in terrifying, disturbing nightmares.</p>

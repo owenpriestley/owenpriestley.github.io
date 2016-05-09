@@ -2,8 +2,11 @@
 layout: single
 title: Horticultural Avenue
 date: 2014-03-04 15:57
-author: oprie
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/horticultural_avenue/
+author_profile: true
+read_time: true
 ---
 <p><img alt="image" src="https://31.media.tumblr.com/8f4c0da3bbe0f7c4b36aab9e4dde5f7f/tumblr_inline_n1tzp7T5ML1rde5ly.jpg" width="770px" /></p>
 <p>Despite the snow covered ground, the weather beaten trees and the predominantly monochrome plant life in the city, Allen Gardens offers a refreshingly humid and colourful retreat all year round.</p>

@@ -2,8 +2,11 @@
 layout: single
 title: Snow, Sleet, Repeat.
 date: 2014-03-15 04:15
-author: oprie
+author: Owen Priestley
 comments: true
+permalink: /portfolio/hogtown_enquirer/snow_sleet_repeat/
+author_profile: true
+read_time: true
 ---
 [caption id="attachment_86" align="aligncenter" width="628"]<a href="http://owenpriestley.files.wordpress.com/2014/03/img_0815.jpg"><img class=" wp-image-86" src="http://owenpriestley.files.wordpress.com/2014/03/img_0815.jpg" alt="IMG_0815" width="628" height="411" /></a> A 1964 subway map of the Bloor St West neighbourhood.[/caption]
 
