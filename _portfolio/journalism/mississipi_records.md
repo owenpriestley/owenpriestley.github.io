@@ -16,7 +16,7 @@ Mississippi Records is a truly unique record store. Their slogan: _Love Over Gol
 
 **I Don't Feel At Home In This World Anymore** is an in depth exploration into culture and how it's expressed, recorded and consumed by society today. Eric skilfully achieves this through the use of his own archival footage, as well as a vast collection of clips from the archives of Alan Lomax; whose obsession with capturing culture before it became extinct has produced over 300 hours of footage.
 
-The tour is an extension of the label – much needed after ten years of silence. I was fortunate enough to be one of the first to interview Eric since the label began. He starts by talking about his life, the work of Alan Lomax, and why he'd decided to tour Europe and showcase the footage. Mississippi Records was set up by Eric to provide a platform to distribute hard to find vinyl at reasonable prices.
+The tour is an extension of the label – much needed after ten years of silence. I was fortunate enough to be one of the first to interview Eric since the label began. He starts by talking about his life, the work of Alan Lomax, and why he'd decided to tour Europe and showcase the footage. Eric set up Mississippi Records to provide a platform to distribute hard-to-find vinyl at reasonable prices.
 
 "I was spending sixty or seventy hours a week in my basement." He begins by describing the Mississippi process. "I was producing one record per week. That was my goal."
 
