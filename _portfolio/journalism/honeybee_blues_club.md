@@ -9,6 +9,9 @@ header:
 sidebar:
   nav: "portfolio"
 ---
+<h2 class="subtitle">Technical explanation sent to beta users</h2>
+<h3> </h3>
+<hr>
 Bar Abbey is located in the basement below the Abbeydale Picture House. Small but not cramped, with a no-frills stage setup, it is one of Sheffield’s oldest blues venues. The Honey Bee Blues Club is the design of Martin Bedford, local artist, musician and promoter.
 
 The Early Morning Sheiks play a strange but intriguing selection of ragtime, blues and old-time pop on strings, cans and kazoos as the quickly amassing crowd shuffle into the subterranean bar. It truly is a mixed bag – a surreal congregation drinking the Honey Bee Blues pale ale and eating three bean burritos on paper plates, soundtracked by the occasional ukulele solo.
