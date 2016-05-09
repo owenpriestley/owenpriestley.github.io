@@ -9,6 +9,9 @@ header:
 sidebar:
   nav: "portfolio"
 ---
+<h2 class="subtitle">Originally published in NowThen magazine, August 2013</h2>
+<h4> </h4>
+<hr>
 Mississippi Records is a truly unique record store. Their slogan: _Love Over Gold_, perfectly sums up both the store, and owner Eric Isaacson's goals.
 
 **I Don't Feel At Home In This World Anymore** is an in depth exploration into culture and how it's expressed, recorded and consumed by society today. Eric skilfully achieves this through the use of his own archival footage, as well as a vast collection of clips from the archives of Alan Lomax; whose obsession with capturing culture before it became extinct has produced over 300 hours of footage.
@@ -48,5 +51,3 @@ Mississippi Records is centred around a DIY ethic; from the recording of musicia
 Eric was the perfect companion to the footage, and despite the two never having met, Eric showed great enthusiasm and genuine belief in continuing Lomax's work. This is the first time Eric has done any kind of tour, and from speaking to him after the show, I gathered it could be the only time.
 
 "I've always liked the idea of appreciation" He explained. "But I don't like the idea of direct attention. Maybe the best way for me to operate is in darkness, in secret. It's working; this is proof. People are getting the records, getting the ideas without me having to say anything. In the future if I do something like this I want it to be more about art than a message."
-
-_Originally published in NowThen magazine, August 2013._

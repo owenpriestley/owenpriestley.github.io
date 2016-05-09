@@ -50,5 +50,5 @@ The deployment contributor uses the deployment catalog to add reference data fil
 
 During deployment, the deployment contributor adds `INSERT`, `UPDATE` and `DELETE` statements to the deployment script, based on the differences between reference data in the source (the DACPAC) and the target database.
 
-[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/ssdt.pdf){: .btn .btn--small}
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/ssdt.pdf){: .btn .btn--large}
 </div>

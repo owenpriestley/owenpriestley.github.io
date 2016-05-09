@@ -16,6 +16,7 @@ I arrived on DLM Dashboard as the product was transitioning from a simple tool -
 <h1>Using filters in DLM Dashboard</h1>
 <h2 class="subtitle">Part of the DLM Dashboard documentation</h2>
 <h3> </h3>
+<hr>
 You can ignore changes to objects you're not interested in by adding a filter file to your pipeline. The file contains rules to ignore objects by name or type. Filtered objects won't trigger updates or drift, and aren't included in email notifications or reported on the Review page.
 
 The filter file must contain valid XML and have a .scpf extension. You can create filters using SQL Compare or SQL Source Control, write your own, or download and edit this [.scpf example file][35]. 
@@ -114,5 +115,16 @@ Once you apply the filter, the change may show as database drift.
 
 When you move a database from a filtered pipeline to a newly created pipeline, the filter file is applied to the new pipeline. When you move a database to an existing pipeline, this won't affect any filters on it - the database will use any filter on to the pipeline it moves to.
 
-[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/dlmdb_filters.pdf){: .btn .btn--small}
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/dlmdb_filters.pdf){: .btn .btn--large}
+</div>
+
+<div markdown="1" class="notice">
+<h1>How to set up DLM Dashboard in 2 minutes</h1>
+<h2 class="subtitle">Promotional/instructional video</h2>
+<h3> </h3>
+<hr>
+<p>I created this video as part of a marketing campaign for DLM Dashboard, but also to function as an instructional resource. The idea is simple: DLM Dashboard is free to download, and you can set it up in two minutes, so why not give it a try?</p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XYY4LFyNTws" frameborder="1" allowfullscreen> </iframe>
+<br/>
+[<i class="fa fa-youtube" aria-hidden="true"></i>  YouTube](https://www.youtube.com/embed/XYY4LFyNTws){: .btn .btn--large}
 </div>

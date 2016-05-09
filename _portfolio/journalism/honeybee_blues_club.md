@@ -9,8 +9,8 @@ header:
 sidebar:
   nav: "portfolio"
 ---
-<h2 class="subtitle">Technical explanation sent to beta users</h2>
-<h3> </h3>
+<h2 class="subtitle">Originally published in NowThen magazine, January 2014</h2>
+<h4> </h4>
 <hr>
 Bar Abbey is located in the basement below the Abbeydale Picture House. Small but not cramped, with a no-frills stage setup, it is one of Sheffield’s oldest blues venues. The Honey Bee Blues Club is the design of Martin Bedford, local artist, musician and promoter.
 
@@ -21,5 +21,3 @@ By the time the Sheiks have played their last song, the bar is at capacity. Peop
 The M&J Blues catalogue covers a broad spectrum of rock and roll, rhythm and blues. Powerful, resonant vocals accompany a blend of acoustic and electric guitar that add authenticity to the father and son duo’s performance. A great rendition of ‘You Never Can Tell’ is followed by an instrumental cover of ‘Voodoo Chile’, with no lack of improvisation from both guitarists.
 
 The Mudcat Blues Trio play a suitably loud and impressive headline slot. Technically brilliant as performers, they have a relaxed chemistry with one another and the crowd. The night ended with a heavy, fast-paced blues rock crescendo, made more intense by the intimate nature of the venue, with its low ceiling and shabby decor, packed from wall to wall. If the grand opening was a sign of things to come, the Honey Bee Blues Club is setting a high standard for live blues and rock nights in Sheffield.
-
-_Originally published in NowThen magazine, January 2014._

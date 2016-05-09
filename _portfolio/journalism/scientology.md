@@ -9,6 +9,9 @@ header:
 sidebar:
   nav: "portfolio"
 ---
+<h2 class="subtitle">Originally published on [Medium](https://medium.com/@owenpriestley/louis-theroux-on-scientology-741cad9ca4ef#.s6qq0jbud), October 2015</h2>
+<h4> </h4>
+<hr>
 With two high-profile documentaries on Scientology being released at either end of this year, the enigmatic church face more public scrutiny than usual. HBO’s [Going Clear: Scientology and the Prison of Belief](http://www.imdb.com/title/tt4257858/), released in March, relies on the detailed accounts of ex-members to expose what goes on behind the church’s locked doors and razor wire.  
 
 The second, Louis Theroux’s [My Scientology Movie](https://whatson.bfi.org.uk/lff/Online/default.asp?BOparam::WScontent::loadArticle::permalink=myscientologymovie), premiered at London Film Festival last week and is decidedly more lighthearted. Louis exposes the church from a completely different angle. In many ways, however, it’s possible to view the film as a follow up to _Going Clear_.  
@@ -32,5 +35,3 @@ The latter half of the film focuses more heavily on Marty Rathburn and his life 
 In the Q&A following the screening, Louis talked about the ongoing threats of legal action, and how much he looks forward to [the counter documentary](http://www.theguardian.com/film/2015/may/04/counter-documentaries-louis-theroux-church-of-scientology) that the church are making about him.  
 
 Louis Theroux’s first feature film has much more to offer than an insight into the church. In fact, you don’t have to be remotely interested in Scientology to enjoy the bizarre events that unfold as a result of this ingenious project.
-
-_Originally published on [Medium](https://medium.com/@owenpriestley/louis-theroux-on-scientology-741cad9ca4ef#.s6qq0jbud), October 2015_
