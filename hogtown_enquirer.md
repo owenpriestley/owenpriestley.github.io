@@ -3,6 +3,8 @@ layout: archive
 permalink: /portfolio/blog/
 title: "The Hogtown Enquirer"
 author_profile: false
+sidebar:
+  nav: "portfolio"
 ---
 
 {% include base_path %}
