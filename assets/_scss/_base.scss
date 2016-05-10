@@ -54,6 +54,16 @@ h2.subtitle {
   font-style: italic;
 }
 
+h2.img {
+  color: #494e52;
+  margin-top: -10px !important;
+  margin-bottom: 15px !important;
+  font-size: 12px;
+  font-weight: 400;
+  text-indent: 10px;
+  font-style: italic;
+}
+
 h3 {
   font-size: $type-size-5;
 }
