@@ -64,7 +64,17 @@ h2.img {
   font-style: italic;
 }
 
-h2.social {
+h2.social, a {
+  color: #494e52;
+  margin-top: -10px !important;
+  margin-bottom: 15px !important;
+  font-size: 12px;
+  font-weight: 400;
+  text-indent: 10px;
+  font-style: italic;
+}
+
+h2.social, a:hover {
   color: #FE4365;
   margin-top: -10px !important;
   margin-bottom: 15px !important;
@@ -73,6 +83,8 @@ h2.social {
   text-indent: 10px;
   font-style: italic;
 }
+
+
 
 h3 {
   font-size: $type-size-5;
