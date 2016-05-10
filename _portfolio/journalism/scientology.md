@@ -9,7 +9,7 @@ header:
 sidebar:
   nav: "portfolio"
 ---
-<h2 class="subtitle">Originally published on [Medium](https://medium.com/@owenpriestley/louis-theroux-on-scientology-741cad9ca4ef#.s6qq0jbud), October 2015</h2>
+<h2 class="subtitle">Originally published on <a href="https://medium.com/@owenpriestley/louis-theroux-on-scientology-741cad9ca4ef#.s6qq0jbud">Medium</a>, October 2015</h2>
 <h4> </h4>
 <hr>
 With two high-profile documentaries on Scientology being released at either end of this year, the enigmatic church face more public scrutiny than usual. HBO’s [Going Clear: Scientology and the Prison of Belief](http://www.imdb.com/title/tt4257858/), released in March, relies on the detailed accounts of ex-members to expose what goes on behind the church’s locked doors and razor wire.  
