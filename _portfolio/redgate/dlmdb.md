@@ -7,13 +7,14 @@ permalink: /portfolio/redgate/dlmdb/
 sidebar:
   nav: "portfolio"
 ---
+{% include toc icon="file-text-o" title="DLM Dashboard" %}
 
 DLM Dashboard is a free tool that monitors databases and alerts users to unapproved schema changes. Once installed, DLM Dashboard runs as a service on the machine and is accessed via the web browser. Through this interface, users can add new servers and databases, and view a history of schema changes on monitored databases.
 
 I arrived on DLM Dashboard as the product was transitioning from a simple tool - a beta version capped at five databases - to a more powerful tool with specific goals in mind. During my time on the team, we frequently released updates and engaged with users to best solve their problems. This involved adding new organisational features - the ability to group databases by server, pipeline or category - and increased flexibility with the introduction of permissions and roles.
 
 <div markdown="1" class="notice">
-<h1>Using filters in DLM Dashboard</h1>
+# Using filters in DLM Dashboard
 <h2 class="subtitle">Part of the DLM Dashboard documentation</h2>
 <h3> </h3>
 <hr>
@@ -23,18 +24,18 @@ The filter file must contain valid XML and have a .scpf extension. You can creat
 
 Some changes are ignored by default and aren't affected by custom filters.
 
-### Create a filter in SQL Compare or SQL Source Control
+<h3>Create a filter in SQL Compare or SQL Source Control</h3>
 
 DLM Dashboard supports filters created using SQL Compare or SQL Source Control:
 
 * to create filters using SQL Compare, see [Using filters](https://documentation.red-gate.com/display/SC11/Using+filters).
 * to create filters using SQL Source Control, see [Exclude objects using filters](https://documentation.red-gate.com/display/SOC5/Exclude+objects+using+filters).
 
-### Use an example filter
+<h3>Use an example filter</h3>
 
 We've provided a .scpf example file for you to download, and details of how to customize it. 
 
-#### **Ignore objects by name**
+<h4>Ignore objects by name</h4>
 
 In this example, you'll update the filter file to ignore changes to objects called `IGNORE`, or that start with `TEMP`.
 <ol>
@@ -61,7 +62,7 @@ The `%` is a wildcard. Ignore multiple objects using the boolean operators `AND`
 <li>Save the filter with the extension .scpf, then add it to DLM Dashboard.</li>
 </ol>
 
-#### **Ignore objects by type**
+</h4>Ignore objects by type</h4>
 
 In this example, you'll update the filter file to include or ignore changes to stored procedures.
 <ol>
@@ -82,7 +83,7 @@ with:
     </StoredProcedure>
 <ol start="4">
 <li>Save the filter with the extension .scpf, then add it to DLM Dashboard.</li>
-</ol>
+</ol></br>
 
 ### Add a filter
 
@@ -111,7 +112,7 @@ When you remove and then add a filter, DLM Dashboard detects a schema change, ta
 
 Once you apply the filter, the change may show as database drift.
 
-### Creating new pipelines
+<h3>Creating new pipelines</h3>
 
 When you move a database from a filtered pipeline to a newly created pipeline, the filter file is applied to the new pipeline. When you move a database to an existing pipeline, this won't affect any filters on it - the database will use any filter on to the pipeline it moves to.
 
@@ -119,7 +120,7 @@ When you move a database from a filtered pipeline to a newly created pipeline, t
 </div>
 
 <div markdown="1" class="notice">
-<h1>How to set up DLM Dashboard in 2 minutes</h1>
+# How to set up DLM Dashboard in 2 minutes
 <h2 class="subtitle">Promotional/instructional video</h2>
 <h3> </h3>
 <hr>

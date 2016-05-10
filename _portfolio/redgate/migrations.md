@@ -11,9 +11,9 @@ sidebar:
 
 [comment]: INTRODUCTION
 
-I joined the SQL Source Control team to document the overhaul of the migrations feature in the software. 
+SQL Source Control is a tool that enables version control for databases in SQL Server Management Studio. I joined the SQL Source Control team to document the overhaul of the migrations feature in the software. 
 
-Migration scripts are a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature.
+Migrations is a particularly difficult feature to document, as each user approaches the task with a different mental model, and often has a different understanding of when and how to use the feature. I worked closely with the UX designer on the team to design and test workflows, and maintained a dialogue with users throughout the beta period.
 
 [comment]: SIMPLETALK BLOG POST
 

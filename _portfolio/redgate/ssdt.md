@@ -7,13 +7,15 @@ permalink: /portfolio/redgate/ssdt/
 sidebar:
   nav: "portfolio"
 ---
+{% include toc icon="file-text-o" title="Reference Data Manager" %}
+
 Reference Data Manager started life as a research project, with the goal of discovering whether users of Visual Studio Database Projects experienced significant pain when managing reference data (or static data), and whether it was feasible to build a tool that solved this problem.
 
 I joined shortly after an alpha version of the tool was developed, at which point the team expanded from three to ten. This was the first time I’d worked on a tool in such an embryonic state. 
 
 I worked closely with the UX designer on the team to develop various interfaces and workflows, testing them with different users. This usually involved screen sharing sessions with experienced Visual Studio users, observing as they attempted to perform various tasks with our tool.
 
-I was solely responsible for preparing supporting documentation for the tool, building up a space from scratch in Confluence. I also worked with the product marketing manager to prepare copy for blog posts and newsletters, and wrote and recorded a promotional video to demonstrate the tool.
+I was solely responsible for preparing supporting documentation for the tool, building up a space from scratch in Confluence. I also worked with the product marketing manager to prepare copy for blog posts and newsletters, and produced a video to demonstrate the tool.
 <div markdown="1" class="notice">
 # How Reference Data Manager works
 <h2 class="subtitle">A technical explanation sent to beta users</h2>
