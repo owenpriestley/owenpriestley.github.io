@@ -29,8 +29,10 @@ portfolio:
         url: /portfolio/journalism/honeybee_blues_club/
       - title: "Louis Theroux on Scientology"
         url: /portfolio/journalism/scientology/
-  - title: "Blogging"
+  - title: "Blogs"
     children:
-      - title: "The Hogtown Enquirer, or moving to Toronto"
+      - title: "Zen and the Art of Documentation Maintenance"
+        url: /portfolio/blog/zen/
+      - title: "The Hogtown Enquirer (my move to Toronto)"
         url: /portfolio/blog/
       
