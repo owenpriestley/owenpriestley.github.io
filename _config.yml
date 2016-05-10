@@ -77,7 +77,7 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "Technical writer"
   location         : "London, UK"
-  email            : "owen.priestley@gmail.com"
+  email            :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : @owenpriestley
+  twitter          :
   vine             :
   weibo            :
   xing             :
