@@ -23,13 +23,13 @@ Sunday morning we took a trip to the weekly antiques market in the Distillery Di
 
 ![full](/images/dscf0350.jpg)
 {: .align-center}
-_Kensington Market's indoor emporium of trinkets._
+<h2 class="img">Kensington Market's indoor emporium of trinkets.</h2>
 
 St. Lawrence Market is great for records, prints, books, crockery, watches, cameras and just about anything else imagineable. It took some time to work our way through the labyrinth of trinkets but I came out with LPs by <em>Cat Stevens</em> and <em>Louis Armstrong</em>, and a 1963 subway map of the Bloor/Ossington neighbourhood.
 
 ![full](/images/dscf0352.jpg)
 {: .align-center}
-_Jess perfectly executes the 'hold an Elton record in front of your face' stunt._
+<h2 class="img">Jess perfectly executes the 'hold an Elton record in front of your face' stunt.</h2>
 
 The Distillery District, as the name suggests, also houses an abundance of bars and restaurants in a relatively small neighbourhood. <em>C'est What? </em>is one of them; a spacious basement with pool tables, a live music space and an excellent selection of craft beers from Ontario and beyond.
 
@@ -45,7 +45,7 @@ Tuesday saw the highest temperatures we've seen since our arrival in this seemin
 
 ![full](/images/img_0754.jpg)
 {: .align-center}
-_The ongoing battle, with the sun finally showing it's ability to melt snow._
+<h2 class="img">The ongoing battle, with the sun finally showing it's ability to melt snow.</h2>
 
 Whilst Britain has been experiencing a heatwave, this ascent into the double figures was certainly a welcome change in Toronto. We took to the streets and watched the snow melt on the baseball field in Trinity Bellwoods Park, drank coffee outside <em>The Tampered Press</em> on Dundas Street and then headed downtown to buy a board game with the knowledge that we'd have to hunker down that evening for the twenty one hours of continuous snowfall that was forecast.
 
@@ -53,12 +53,12 @@ The weather changes so rapidly here it's hard to keep up. I wore trainers, a shi
 
 ![full](/images/img_0781.jpg)
 {: .align-center}
-_And then it snowed, again._
+<h2 class="img">And then it snowed, again.</h2>
 
 Fortunately, the board game we <em>settled upon</em>, was called <em>Settlers of Catan</em>, and if you've never played it you should - just be sure to set aside at least two hours and a good deal of supplies. I won't bore you with the details of the game, although I assure you it's riveting, instead here's a photograph of the selection we had to choose from.
 
 ![full](/images/img_0768.jpg)
 {: .align-center}
-_A board game store whose stock necessitates a panoramic photograph._
+<h2 class="img">A board game store whose stock necessitates a panoramic photograph.</h2>
 
 The weather is on the up again, hopefully for awhile, and St. Patricks day is nigh. With our close proximity to New York, and the plenteous Irish bars and pubs around Toronto, I'd like to hope this weekend will be sufficiently Irish, too.
