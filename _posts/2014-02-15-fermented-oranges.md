@@ -7,6 +7,8 @@ comments: true
 permalink: /portfolio/hogtown_enquirer/fermented_oranges/
 author_profile: true
 read_time: true
+header:
+  image: fermented_oranges.png
 ---
 We're still living the unemployed life: I don’t have an alarm clock. I rise with the low winter sun; by the chatter of black squirrels on the sill; or with the bitter chill that permeates every crevice and drags you back into the frozen world of consciousness.
 
