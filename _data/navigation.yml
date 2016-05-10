@@ -6,9 +6,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Contact"
-    url: mailto:owen.priestley@gmail.com
-
 # _data/navigation.yml
 portfolio:
   - title: "Technical writing"
