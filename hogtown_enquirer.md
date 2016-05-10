@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /hogtown_enquirer/
+permalink: /portfolio/blog/
 title: "The Hogtown Enquirer"
 author_profile: false
 ---
