@@ -7,7 +7,7 @@ main:
     url: /portfolio/
 
   - title: "Contact"
-    url: mailto:owen.priestley@gmail.com
+    url: /contact/
 
 # _data/navigation.yml
 portfolio:
