@@ -32,7 +32,7 @@ Florian Scholz and Jean-Yves Perrier, two tech writers from the Mozilla Develope
 
 So how do they maintain a [garden of over 10,000 documents](https://developer.mozilla.org/en-US/)? They set up a site to track each section of the knowledge base, indicating it's overall health based on a set of measurements:
 
-![zen-1.png][71]
+<img src="zen-1.png" align="center">
 
 The Mozilla Developer Network relies on this gigantic to-do list to entrust maintenance to the right people. Practical and manageable tasks are grouped into categories such as technical reviews or outdated pages. This makes it easy for their contributors to find the areas where they can help.
 
@@ -44,15 +44,15 @@ Here at Redgate, some of the tech comms team have started using the project mana
 
 Automating tedious processes such as checking for dead links can save a lot of time, too. [Check My Links](https://github.com/ocodia/Check-My-Links/) is a free Chrome add-on that checks a page for dead links. Valid links are highlighted in green, and any broken links in red.
 
-![zen-2.png]
+<img src="zen-2.png" align="center">
 
 
 We can use [Google Analytics](http://www.google.com/analytics/) to gain an insight into how users interact with our documentation. How long people spend on a page, for example, can tell us a lot about whether that document is effective or not. Ideally, users shouldn’t be staring at a quick-start guide for more than a couple of minutes.
 
 Using readability tools such as [Hemingway Editor](http://www.hemingwayapp.com/), we can analyze the contents of a document and grade it's readability, read time and instances of the passive voice. Use these metrics to help reduce the complexity and read time of a document.
 
-![zen-3.png]
+<img src="zen-3.png" align="center">
 
 Deciding an ideal readability grade for documentation can help to ensure consistent readability across the board. Studies show that the average American reads at a tenth-grade level. Think about the audience for your docs, and how this should be reflected in readability scores.
 
-**It's clear that the role of the technical writer is changing and evolving to include a broader set of responsibilities. By using tools like these to analyse and automate our work, we can alleviate some of this responsibility, freeing up time to concentrate on collaboration and the more creative processes. **
+It's clear that the role of the technical writer is changing and evolving to include a broader set of responsibilities. By using tools like these to analyse and automate our work, we can alleviate some of this responsibility, freeing up time to concentrate on collaboration and the more creative processes.
