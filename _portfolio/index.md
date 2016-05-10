@@ -8,6 +8,6 @@ sidebar:
   nav: "portfolio"
 ---
 
-Check out some samples of my work using the navigation panel to the left. I've included pieces of technical writing, journalism and blog posts. 
+Use the navigation panel to the left to check out some samples of my work. There's a selection of technical writing, journalism and blog posts. 
 
 For more samples, please <a href="mailto:owenpriestley@gmail.com">get in touch</a>.
