@@ -9,9 +9,13 @@ sidebar:
 ---
 {% include toc icon="file-text-o" title="DLM Dashboard" %}
 
-DLM Dashboard is a free tool that monitors databases and alerts users to unapproved schema changes. Once installed, DLM Dashboard runs as a service on the machine and is accessed via the web browser. Through this interface, users can add new servers and databases, and view a history of schema changes on monitored databases.
+DLM Dashboard is a free tool that monitors databases and alerts users to unapproved schema changes. Once installed, DLM Dashboard runs as a service on the machine and is accessed via the web browser. 
 
-I arrived on DLM Dashboard as the product was transitioning from a simple tool - a beta version capped at five databases - to a more powerful tool with specific goals in mind. During my time on the team, we frequently released updates and engaged with users to best solve their problems. This involved adding new organisational features - the ability to group databases by server, pipeline or category - and increased flexibility with the introduction of permissions and roles.
+Through the web interface, users can add new servers and databases, and view a history of schema changes on monitored databases.
+
+I arrived on DLM Dashboard as the product was transitioning from a simple tool - a beta version capped at five databases - to a more powerful tool with specific goals in mind. 
+
+During my time on the team, we frequently released updates and engaged with users to best solve their problems. This involved adding new organisational features - the ability to group databases by server, pipeline or category - and increased flexibility with the introduction of permissions and roles.
 
 <div markdown="1" class="notice">
 # Using filters in DLM Dashboard
