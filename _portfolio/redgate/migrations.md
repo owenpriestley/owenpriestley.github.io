@@ -72,7 +72,7 @@ To help us build the best solution we can, we're looking for feedback from as ma
 
 Using the beta, you can create, commit and deploy migration scripts to your databases. We'll use your feedback to improve the usability of migrations and shape the future of SQL Source Control, ahead of the public release in late spring. This is your chance to really have some input on where we take these latest improvements, so don't be shy!
 
-[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/simpletalk.pdf){: .btn .btn--large}
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](simpletalk.pdf){: .btn .btn--large}
 </div>
 
 [comment]: WORKING WITH MIGRATION SCRIPTS DOCUMENTATION
@@ -85,7 +85,7 @@ Using the beta, you can create, commit and deploy migration scripts to your data
 <hr>
 <h3>What are migration scripts?</h3>
 <p>When you deploy changes committed to version control, the SQL Compare
-engine generates a deployment script to update the target database.You
+engine generates a deployment script to update the target database. You
 can use a migration script to add custom SQL to a specific point in this
 deployment script.</p>
 
@@ -174,5 +174,5 @@ changes, SQL Source Control automatically includes any dependencies.</p>
 <p>Deselecting any of these dependencies during the deployment stage will
 cause the deployment to fail.</p>
 
-[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](portfolio/redgate/SOC5-Workingwithmigrationscripts.pdf){: .btn .btn--large}
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  PDF](SOC5-Workingwithmigrationscripts.pdf){: .btn .btn--large}
 </div>

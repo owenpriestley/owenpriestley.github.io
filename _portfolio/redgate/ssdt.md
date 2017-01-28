@@ -60,10 +60,8 @@ During deployment, the deployment contributor adds `INSERT`, `UPDATE` and `DELET
 <h2 class="subtitle">Video demonstration of the tool in practice</h2>
 <h3> </h3>
 <hr>
-<p>I produced this video as both an instructional resource for user testing, and as a way to attract more users to the tool. Including a common use case, I hoped to pique the interest of SSDT users experiencing pain when trying to import reference data.
+<p>I produced this video as both an instructional resource for user testing, and as a way to attract more users to the tool. Including a common use case, I hoped to pique the interest of SSDT users experiencing pain when trying to import reference data.</p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XYY4LFyNTws" frameborder="1" allowfullscreen> </iframe>
 <br/>
-
-[<i class="fa fa-youtube" aria-hidden="true"></i>  YouTube](https://www.youtube.com/embed/XYY4LFyNTws){: .btn .btn--large}
-
 </div>

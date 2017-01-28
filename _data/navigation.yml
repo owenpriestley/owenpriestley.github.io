@@ -8,6 +8,10 @@ main:
 
 # _data/navigation.yml
 portfolio:
+  - title: "Content design"
+    children:
+      - title: "Working and child tax credits"
+        url: /portfolio/citizensadvice/iwbenefits/
   - title: "Technical writing"
     children:
       - title: "SQL Source Control"

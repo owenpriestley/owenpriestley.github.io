@@ -87,7 +87,7 @@ with:
     </StoredProcedure>
 <ol start="4">
 <li>Save the filter with the extension .scpf, then add it to DLM Dashboard.</li>
-</ol></br>
+</ol>
 
 ### Add a filter
 
