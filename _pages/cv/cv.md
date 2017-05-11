@@ -8,16 +8,23 @@ permalink: /cv/
 <h1 style="color: #FE4365; text-align: center; text-indent: -1em">Work Experience</h1>
 * * * 
 
-<h2 style="color: black">Technical writer</h2>
-<p>Redgate Software<br/>
-<i>2015 - Present</i></p>
--  Work with an agile product development team to produce supporting documentation.
--  Assist UX designers in producing user research materials.
--  Produce marketing materials including videos, blog posts and product copy.
--  Participate in exploratory feature testing sessions.
--  Independently research product features and concepts.
--  Assist with recruitment.
+<h2 style="color: black">Content designer</h2>
+[Citizens Advice](http://citizensadvice.org.uk)  
+_2016 - Present_  
 
+* Lead project teams to research, write and test online advice content
+* Work with developers to design and maintain online tools
+* Maintain relationships with contacts in government departments
+* Conduct user research in Citizens Advice Bureaux across the country
+
+<h2 style="color: black">Technical writer</h2>
+[Redgate Software](http://red-gate.com)  
+_2015 - 2016_  
+
+- Maintained product documentation and release notes
+- Worked with UX designers to develop microcopy and user journeys
+- Developed and lead user research sessions
+- Produced marketing materials including videos, blog posts and product copy
 
     {::comment}
     <h6>Samples:</h6>
@@ -27,12 +34,13 @@ permalink: /cv/
     {:/comment}
 
 
-<h2 style="color: black">Freelance Writer</h2>
-<p>NowThen Magazine<br/>
-<i>2011 - 2014</i></p>
-- Took assignments to cover various events, topics or local news items.
-- Produced and fact-checked articles quickly and efficiently, working to strict deadlines.
-- Reviewed local gigs, new films and games.
+<h2 style="color: black">Freelance writer</h2>
+[NowThen Magazine](http://nowthenmagazine.com/)  
+_2011 - 2014_  
+
+- Covered various events, topics or local news items
+- Worked to strict print deadlines
+- Reviewed local albums, gigs and festivals
 
     {::comment}
     #### Examples
@@ -41,12 +49,12 @@ permalink: /cv/
     {:/comment}
 
 <h2 style="color: black">Specialist  </h2>
-<p>Apple Retail<br/>
-<i>2011 - 2014</i></p>
+[Apple Retail](http://apple.com/uk/retail/meadowhall/)  
+_2011 - 2014_  
 
-- Worked multiple roles to ensure excellent levels of customer service were maintained.
-- Produced and edited written communications for internal distribution.
-- Researched competitor products and services and produced written reports for training.
+- Provided excellent customer service across multiple roles
+- Helped customers troubleshoot software and hardware issues
+- Researched competitor products and services for staff training
 
 <br/>
 <h1 style="text-align: center; color: #FE4365; text-indent: -1em">Education</h1>
@@ -56,24 +64,22 @@ permalink: /cv/
 <p>Sheffield Hallam University<br/>
 <i>2010 - 2013</i></p>
 
-- Practiced writing concise, effective copy for varying purposes and audiences.
-- Edited, proofread and submitted written work to strict deadlines.
-- Produced work to be published through various channels; with print, digital and spoken word being the most prominent
-- Acted upon feedback from peers and lecturers to improve written work.
+- Practiced writing concise, effective copy for varying purposes and audiences
+- Edited, proofread and submitted written work to strict deadlines
+- Used feedback from peers and lecturers to improve written work
 
 <h2 style="color: black">A-Level: English, Graphic Design and Media Studies</h2>  
 <p>The Sheffield College<br/>
 <i>2008 - 2010</i></p>
 
-- Researched and presented information in concise written essays and/or via spoken presentations.
-- Used Adobe creative suites to produce promotional and informative materials, both for digital and print consumption.
-- Studied fundamental media theory and applied it to the analysis of existing work.
+- Researched and presented information in concise written essays and/or via spoken presentations
+- Used Adobe creative suites to produce promotional and informative materials, both for digital and print consumption
+- Studied fundamental media theory and applied it to the analysis of existing work
 
 <br/>
 <h1 style="color: #FE4365; text-align: center; text-indent: -1em">Other skills</h1>
 * * * 
 
 - Knowledge of Adobe Creative Suite and Creative Cloud.
-- Substantial experience with Microsoft Office.
 - Knowledge of HTML, CSS, JavaScript and SQL
-- Experience with content management systems, including Confluence
+- Experience with various content management systems, including Confluence and EPi Server
