@@ -1,5 +1,5 @@
-# Owen Priestley
+# My old portfolio
 
-You're looking at my portfolio! I'm a technical writer for the software industry. You'll find samples of my work and my contact details on the full site [here](http://owenpriestley.github.io).
+This is now superceded by [this portfolio.](owenpriestley.co.uk)
 
-The site is built with Jekyll, hosted on GitHub pages, and uses a modified version of the Minimal Mistakes theme.
+The old site is built with Jekyll, hosted on GitHub pages, and uses a modified version of the Minimal Mistakes theme.
